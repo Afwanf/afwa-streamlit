@@ -1,14 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 pip install streamlit
-
-
-# In[4]:
-
 
 # import all the app dependencies
 import pandas as pd
@@ -62,8 +52,6 @@ features = ['Number_of_vehicles_involved','Number_of_casualties','Hour_of_Day','
     'Educational_level','Service_year_of_vehicle','Day_of_week','Area_accident_occured']
 
 
-# In[5]:
-
 
 # Give a title to web app using html syntax
 st.markdown("<h1 style='text-align: center;'>Accident Severity Prediction App 🚧</h1>", unsafe_allow_html=True)
@@ -114,9 +102,7 @@ def main():
        """)
 
 
-# In[7]:
-
-
+        
 a,b,c = st.columns([0.2,0.6,0.2])
 with b:
  st.image("banner-picture.jpeg", use_column_width=True)
@@ -143,22 +129,3 @@ st.markdown("Please find GitHub repository link of project: [Click Here](https:/
 # run the main function        
 if __name__ == '__main__':
   main()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
